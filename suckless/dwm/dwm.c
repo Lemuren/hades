@@ -1964,7 +1964,7 @@ updategeom(void)
                 if (attachbelow)
                     attachBelow(c);
                 else
-				attach(c);
+                    attach(c);
 				attachstack(c);
 			}
 			if (m == selmon)
