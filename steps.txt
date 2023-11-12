@@ -1,0 +1,23 @@
+1. Remove some defaults
+rm .bash_logout
+rm .profile
+rm .bashrc
+
+1.5 Create some dirs
+mkdir ~./local/bin
+
+
+
+2. Download software
+sudo apt install firefox-esr neovim git x11-xkb-utils htop mpv
+
+
+dmenu
+dwm
+st
+
+
+
+
+
+3. Copy rc files
