@@ -25,5 +25,8 @@ export XDG_STATE_HOME=$HOME/.local/state
 # Add private bin directory to the path.
 export PATH=$HOME/.local/bin:$PATH
 
+# Switch ESC and CAPS.
+/usr/bin/setxkbmap -option "caps:swapescape"
+
 # Start the X server.
 exec startx
