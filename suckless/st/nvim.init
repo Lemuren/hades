@@ -1,0 +1,54 @@
+set nocompatible        " Turn off compatibility mode with old versions of Vim.
+
+" Always expand tabs to 4 spaces.
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
+set autoindent
+
+set mouse=v             " Middle-click paste.
+
+" Enable syntax highlighting and tell Vim we're using a 256-color terminal.
+syntax enable
+set t_Co=256
+set termguicolors
+
+" More healthy searching defaults.
+set ignorecase      " Ignore case when searching.
+set showmatch       " Show matching.
+set incsearch       " Incremental search.
+set hlsearch        " Highlight search matches.
+
+" Speed up scrolling in Vim.
+set ttyfast
+
+set noswapfile      " Disable creation of the swap file.
+
+
+set relativenumber  " Display relative line numbers.
+
+call plug#begin("~/.vim/plugged")
+Plug 'morhetz/gruvbox'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
+colorscheme gruvbox
+
+" Use tab for trigger completion with characters ahead and navigate
+" NOTE: There's always complete item selected by default, you may want to enable
+" no select by `"suggest.noselect": true` in your configuration file
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config
+function! s:CheckBackspace() abort
+	let col = col('.') - 1
+	return !col || getline('.')[col - 1] =~ '\s'
+endfunction
+
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ <SID>CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+set updatetime=300
