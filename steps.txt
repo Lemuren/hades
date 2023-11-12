@@ -5,7 +5,10 @@ rm .bashrc
 
 1.5 Create some dirs
 mkdir ~./local/bin
-
+mkdir ~/Documents
+mkdir ~/Downloads
+mkdir ~/Music
+mkdir ~/Pictures
 
 
 2. Download software
@@ -16,8 +19,6 @@ dmenu
 dwm
 st
 
-
-
-
+libxft-dev
 
 3. Copy rc files
