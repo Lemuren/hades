@@ -20,6 +20,7 @@ sudo apt install --yes firefox-esr neovim git x11-xkb-utils htop mpv libxft-dev
 
 echo "Cloning repo"
 git clone https://github.com/Lemuren/hades.git
+cd hades
 
 echo "Building st"
 cd suckless/st
