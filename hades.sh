@@ -16,7 +16,7 @@ echo "Removing bash_logout"
 rm "$HOME/.bash_logout"
 
 echo "Installing software"
-sudo apt install --yes firefox-esr neovim git x11-xkb-utils htop mpv libxft-dev
+sudo apt install --yes firefox-esr neovim git xorg x11-xkb-utils htop mpv libxft-dev libxinerama-dev
 
 echo "Cloning repo"
 git clone https://github.com/Lemuren/hades.git
