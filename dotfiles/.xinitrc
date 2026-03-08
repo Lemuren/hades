@@ -11,8 +11,5 @@
 #   #           .xinitrc            #
 #   #################################
 
-
-# Swap ESC and CAPSLOCK
-
-# Start dwm
-exec dwm
+# Start AwesomeWM
+exec awesome
