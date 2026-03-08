@@ -5,7 +5,7 @@ While I won’t stop you from using my scripts, I’ve made no attempt to provid
 
 ## Prerequisites
 For the script to work properly you need a clean base image of Debian installed.
-Fetch a minimal [netrins image of Debian](https://www.debian.org/distrib/) and
+Fetch a minimal [netinst image of Debian](https://www.debian.org/distrib/) and
 go through the setup.
 
 ### Installing Debian
