@@ -13,6 +13,7 @@ echo "==> Removing bootstrap script and cloned files"
 rm "${HOME}/bootstrap.sh"
 rm -rf "${HOME}/hades"
 rm -f "${HOME}/.wget-hsts"
+rm -f "${HOME}/.bash_history"
 
 echo "== HaDeS installation successful! =="
 echo "To finalize the installation add your SSH key, configure git and reboot the machine"
