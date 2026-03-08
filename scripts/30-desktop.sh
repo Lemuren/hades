@@ -12,7 +12,7 @@ sudo apt install -y  \
     xorg             \
     awesome          \
     xinit            \
-    x11-server-utils
+    x11-xserver-utils
 
 echo "==> Installing fonts"
 sudo apt install -y  \
