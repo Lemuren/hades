@@ -22,7 +22,7 @@ Once you're logged in to your fresh, new Debian system fetch and run the bootstr
 This will install the minimal tools to run the HaDeS install script and then launch it.
 
 ```bash
-wget https://raw.githubusercontent.com/Lemuren/hades/refs/heads/main/bootstrap.sh && sudo ./bootstrap.sh
+wget https://raw.githubusercontent.com/Lemuren/hades/refs/heads/main/bootstrap.sh && sudo sh ./bootstrap.sh
 ```
 
 ## Description of Scripts
