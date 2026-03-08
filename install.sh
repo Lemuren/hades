@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Installing HaDeS"
+# We 'sudo' echo here to have sudo access later when we need it.
+sudo echo "Installing HaDeS"
+
 for script in scripts/*.sh; do
     echo "======== ${script} ========"
     if ! bash "${script}"; then
