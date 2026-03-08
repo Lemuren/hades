@@ -1,5 +1,8 @@
 # Debian System Bootstrap (HaDeS)
 
+Hades (stylized as HaDeS) is my own personal bootstrap scripts for taking a minimal Debian installation and turning it into my “standard” system.
+While I won’t stop you from using my scripts, I’ve made no attempt to provide ways to customize or adapt it to your own preferences.
+
 ## Prerequisites
 For the script to work properly you need a clean base image of Debian installed.
 Fetch a minimal [netrins image of Debian](https://www.debian.org/distrib/) and
