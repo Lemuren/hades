@@ -1,0 +1,39 @@
+#   #################################
+#   #  _   _      ______     _____  #
+#   # | | | |     |  _  \   /  ___| #
+#   # | |_| | __ _| | | |___\ `--.  #
+#   # |  _  |/ _` | | | / _ \`--. \ #
+#   # | | | | (_| | |/ /  __/\__/ / #
+#   # \_| |_/\__,_|___/ \___\____/  #
+#   #                               #
+#   #################################
+#   #      Hannes Debian Setup      #
+#   #   alacritty/alacritty.toml    #
+#   #################################
+
+[window]
+decorations = "None"
+padding = { x = 2, y = 2 }
+dynamic_padding = true
+
+[font]
+size = 11.0
+normal = { family = "Noto Sans Mono", style="Regular" }
+bold = { family = "Noto Sans Mono", style="Bold" }
+
+[colors.primary]
+foreground = "#F1F4F8"
+background = "#191D27"
+
+[colors.normal]
+white = "#F1F4F8"
+black = "#191D27"
+green = "#7FB37F"
+red = "#850C2C"
+yellow = "#D9B86C"
+blue = "#784DF9" # accent
+magenta = "#6A4BC7" # accent-light
+cyan = "#8C7BCF" # accent-muted
+
+[cursor]
+style = "Block"
