@@ -15,6 +15,9 @@
 alias ls='ls -hp --group-directories-first --color=auto'
 alias grep='grep --color=auto'
 
+# Use .profile HISTFILE in those rare cases bash is launched in an environment
+# that has not parsed .profile.
+export HISTFILE
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
