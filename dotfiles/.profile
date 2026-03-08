@@ -12,6 +12,7 @@
 #   #################################
 
 # XDG directories and some commonly referenced environment variables.
+export TERMINAL=alacritty
 export EDITOR=nvim
 export BROWSER=firefox
 export XDG_CONFIG_HOME=$HOME/.config
