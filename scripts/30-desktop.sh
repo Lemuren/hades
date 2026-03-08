@@ -8,19 +8,19 @@ set -euo pipefail
 #
 
 echo "==> Installing Xorg and AwesomeWM"
-apt install -y       \
+sudo apt install -y  \
     xorg             \
     awesome          \
     xinit            \
     x11-server-utils
 
 echo "==> Installing fonts"
-apt install -y    \
-    fonts-noto-core \
+sudo apt install -y  \
+    fonts-noto-core  \
     fonts-noto-mono
 
 echo "==> Installing graphical packages"
-apt install -y           \
+sudo apt install -y      \
     mpv                  \
     firefox-esr          \
     feh                  \
