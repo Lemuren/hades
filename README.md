@@ -13,16 +13,16 @@ To ensure a minimal install choose "Advanced options" -> "Expert install".
 Go through the install process like normal.
 There are only a few things to note during the install:
 
-	1. Do not allow root login, instead opting for the regular user to be able to use 'sudo'.
-	2. Do not enable backported software (this is important for things like dotfiles to have reliable versions of the software they configure)
-	3. When choosing which software to install, disable everything. Yes, even "Standard system utilities".
+1. Do not allow root login, instead opting for the regular user to be able to use 'sudo'.
+2. Do not enable backported software (this is important for things like dotfiles to have reliable versions of the software they configure)
+3. When choosing which software to install, disable everything. Yes, even "Standard system utilities".
 
 ## Bootstrapping the system (rename this header)
 Once you're logged in to your fresh, new Debian system fetch and run the bootstrap script.
 This will install the minimal tools to run the HaDeS install script and then launch it.
 
 ```bash
-wget <insert link to GitHub bootstrap script here> && sudo ./bootstrap.sh
+wget https://raw.githubusercontent.com/Lemuren/hades/refs/heads/main/bootstrap.sh && sudo ./bootstrap.sh
 ```
 
 ## Description of Scripts
