@@ -25,6 +25,7 @@ export XDG_STATE_HOME=$HOME/.local/state
 export PYTHON_HISTORY=$XDG_STATE_HOME/python_history
 export PYTHONPYCACHEPREFIX=$XDG_CACHE_HOME/python
 export WGETRC="$XDG_CONFIG_HOME/wgetrc
+export HISTFILE="$XDG_STATE_HOME"/bash_history
 
 # Add private bin directory to the path.
 export PATH=$HOME/.local/bin:$PATH
