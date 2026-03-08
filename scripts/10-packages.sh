@@ -19,4 +19,5 @@ sudo apt install -y      \
     ca-certificates      \
     gnupg                \
     zip                  \
-    xz-utils
+    xz-utils             \
+    tree
