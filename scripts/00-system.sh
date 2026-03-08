@@ -12,9 +12,9 @@ sudo apt update
 sudo apt upgrade -y
 
 # We're going to clobber these later anyway.
-rm "${HOME}/.bash_logout"
-rm "${HOME}/.bashrc"
-rm "${HOME}/.profile"
+rm -f "${HOME}/.bash_logout"
+rm -f "${HOME}/.bashrc"
+rm -f "${HOME}/.profile"
 
 # Set up our home directory.
 echo "==> Creating HOME directory layout"
