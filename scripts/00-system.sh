@@ -8,8 +8,8 @@ set -euo pipefail
 
 # Make sure the system is up-to-date before we do anything else.
 echo "==> Updating system"
-apt update
-apt upgrade -y
+sudo apt update
+sudo apt upgrade -y
 
 # We're going to clobber these later anyway.
 rm "${HOME}/.bash_logout"
