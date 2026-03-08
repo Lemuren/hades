@@ -10,9 +10,9 @@ sudo apt autoremove -y
 sudo apt clean
 
 echo "==> Removing bootstrap script and cloned files"
-rm bootstrap.sh
-rm -rf hades
-rm -f .wget-hsts
+rm "${HOME}/bootstrap.sh"
+rm -rf "${HOME}/hades"
+rm -f "${HOME}/.wget-hsts"
 
 echo "== HaDeS installation successful! =="
 echo "To finalize the installation add your SSH key, configure git and reboot the machine"
