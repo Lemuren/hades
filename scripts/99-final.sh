@@ -6,8 +6,8 @@ set -euo pipefail
 #
 
 echo "==> Cleaning up package cache"
-apt autoremove -y
-apt clean
+sudo apt autoremove -y
+sudo apt clean
 
 echo "== HaDeS installation successful! =="
 echo "To finalize the installation add your SSH key, configure git and reboot the machine"
