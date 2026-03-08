@@ -22,14 +22,13 @@ export XDG_STATE_HOME=$HOME/.local/state
 # Clean up ~/.
 export PYTHON_HISTORY=$XDG_STATE_HOME/python_history
 export PYTHONPYCACHEPREFIX=$XDG_CACHE_HOME/python
-export WGETRC="$XDG_CONFIG_HOME/wgetrc
-export HISTFILE="$XDG_STATE_HOME"/bash_history
+export WGETRC="$XDG_CONFIG_HOME/wgetrc"
+export HISTFILE="$XDG_STATE_HOME/bash_history"
 
 # Add private bin directory to the path.
 export PATH=$HOME/.local/bin:$PATH
 
-# Switch ESC and CAPS.
-/usr/bin/setxkbmap -option "caps:swapescape"
-
 # Start the X server.
-exec startx
+if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
+    exec startx
+fi
