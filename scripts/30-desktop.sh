@@ -25,4 +25,6 @@ sudo apt install -y      \
     firefox-esr          \
     feh                  \
     xclip                \
-    scrot
+    scrot                \
+    alacritty            \
+    fastfetch
