@@ -6,7 +6,7 @@ set -euo pipefail
 #
 
 echo "==> Installing basic packages"
-apt install -y           \
+sudo apt install -y      \
     git                  \
     curl                 \
     build-essential      \
