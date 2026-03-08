@@ -8,3 +8,4 @@ set -euo pipefail
 cp dotfiles/.bashrc "${HOME}/.bashrc"
 cp dotfiles/.profile "${HOME}/.profile"
 cp dotfiles/.xinitrc "${HOME}/.xinitrc"
+cp dotfiles/wgetrc "${HOME}/.config/wgetrc"
