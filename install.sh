@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Cloning HaDeS"
-git clone https://github.com/Lemuren/hades.git
-cd hades
-
 echo "Installing HaDeS"
 for script in scripts/*.sh; do
     echo "======== ${script} ========"
