@@ -17,7 +17,8 @@ sudo apt install -y  \
 echo "==> Installing fonts"
 sudo apt install -y  \
     fonts-noto-core  \
-    fonts-noto-mono
+    fonts-noto-mono  \
+    fonts-noto-color-emoji
 
 echo "==> Installing graphical packages"
 sudo apt install -y      \
