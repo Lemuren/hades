@@ -12,4 +12,4 @@ cp dotfiles/wgetrc "${HOME}/.config/wgetrc"
 mkdir "${HOME}/.config/alacritty" && cp dotfiles/alacritty.toml "${HOME}/.config/alacritty/alacritty.toml"
 
 # We handle AwesomeWM slightly differently because of its complexity.
-cp -r awesome "${HOME}/.config/"
+cp -r awesome/ "${HOME}/.config/"
