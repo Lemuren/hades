@@ -15,7 +15,7 @@
 decorations = "None"
 padding = { x = 2, y = 2 }
 dynamic_padding = true
-opacity = 0.90
+opacity = 0.95
 
 [font]
 size = 11.0
