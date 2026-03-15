@@ -12,4 +12,6 @@
 #   #################################
 
 # Start AwesomeWM
+setxkbmap -option caps:swapescape
+setxkbmap -option altwin:swap_alt_win
 exec awesome
