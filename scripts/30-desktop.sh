@@ -8,11 +8,12 @@ set -euo pipefail
 #
 
 echo "==> Installing Xorg and AwesomeWM"
-sudo apt install -y  \
-    xorg             \
-    awesome          \
-    xinit            \
-    x11-xserver-utils
+sudo apt install -y   \
+    xorg              \
+    awesome           \
+    xinit             \
+    x11-xserver-utils \
+    picom
 
 echo "==> Installing fonts"
 sudo apt install -y  \
