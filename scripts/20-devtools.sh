@@ -15,7 +15,8 @@ sudo apt install -y  \
     python3          \
     python3-pip      \
     python3-venv     \
-    golang
+    golang           \
+    ripgrep
 
 # Next Docker, which is a bit more involved.
 echo "==> Installing Docker"
